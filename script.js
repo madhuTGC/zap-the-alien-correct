@@ -1138,7 +1138,7 @@ function shootBullet(left) {
           bulletbound.top <= rockbound.top &&
           bulletbound.bottom <= rockbound.bottom
         ) {
-          
+
           // createBlast(bulletbound.left, bulletbound.top);
           // console.log("rockbound",rockbound);
           // console.log("bulletbound",bulletbound.y);
@@ -1173,7 +1173,7 @@ function shootBullet(left) {
       clearInterval(movebullet);
     }
 
-    bullet.style.left = left + (jet.offsetWidth / 7) + "px";
+    bullet.style.left = left + (jet.offsetWidth / 10) + "px";
     console.log("new",bullet.style.left)
     bullet.style.bottom = bulletbottom + 3 + "px";
   });
