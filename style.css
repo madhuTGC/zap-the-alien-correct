@@ -59,11 +59,11 @@
     right: 42px;
     cursor: pointer;
     font-size: 60px;
-    color: #f0e7e6;
+    color: #59d0ea;
 }
 
 .close:hover{
-    color: #6514DD;
+    color: #358AD2;
 }
 
 
@@ -431,9 +431,9 @@
     }
 
     .close {
-        top: 10px;
-        right: 22px;
-        font-size: 35px;
+      top: 14px;
+      right: 24px;
+      font-size: 38px;
     }
 
 
@@ -494,15 +494,19 @@
 
   @media (max-width: 480px) {
 
+
+    .bullets {
+      
+      width: 7vw;
+      height: 7vh;
+      
+    }
+
     #jet {
-      position: absolute;
-      width: 25vh;
-      height: 20vh;
-      background: url("Mask\ group.png");
-      background-size: contain;
-      background-repeat: no-repeat;
-      left: 50%;
-      bottom: 0px;
+      
+      width: 22vh;
+      height: 18vh;
+      
     }
 
     .logo-img{
@@ -510,22 +514,16 @@
       width: 50vw;
     }
 
-    #startPage{
-      /* gap: 10rem; */
-      
-  }
+    
   .popup img {
     height: 44vh;
 }
 
     .rocks {
-        position: absolute;
-        top: 0px;
-        width: 18vw;
-        height: 18vh;
-        background: url("alien.png");
-        background-size: contain;
-        background-repeat: no-repeat;
+        
+        width: 20vw;
+        height: 20vh;
+        
       }
 
 
